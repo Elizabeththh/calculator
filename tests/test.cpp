@@ -798,7 +798,7 @@ string calculator::set_precision(string ans, long long precision, char method)
                     size_t round_bit = splited_num.second[precision] - '0';
                     if(round_bit <= 4)
                     {
-                        splited_num.second.erase(precision,digits_after_dec - precision);
+                        splited_num.second.erase(precision, digits_after_dec - precision);
                         ans = splited_num.first + "." + splited_num.second;
                         return ans;
                     }
