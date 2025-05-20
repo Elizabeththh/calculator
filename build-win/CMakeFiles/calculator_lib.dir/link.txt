@@ -1,2 +1,0 @@
-C:\mingw64\bin\ar.exe qc libcalculator_lib.a CMakeFiles/calculator_lib.dir/src/addition.cpp.obj CMakeFiles/calculator_lib.dir/src/calculation.cpp.obj CMakeFiles/calculator_lib.dir/src/calculator.cpp.obj CMakeFiles/calculator_lib.dir/src/division.cpp.obj CMakeFiles/calculator_lib.dir/src/multiplication.cpp.obj CMakeFiles/calculator_lib.dir/src/subtraction.cpp.obj
-C:\mingw64\bin\ranlib.exe libcalculator_lib.a

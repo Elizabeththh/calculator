@@ -6,13 +6,6 @@
 
 *.o
 
-test/test
+tests/
 
-learn.cpp
-
-a.out
-
-tests/test
-
-build/.cmake
-
+build/

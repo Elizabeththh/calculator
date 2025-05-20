@@ -1,6 +1,0 @@
-F:/Code/calculator/build-win/CMakeFiles/calculator_lib.dir
-F:/Code/calculator/build-win/CMakeFiles/calculator.dir
-F:/Code/calculator/build-win/CMakeFiles/test_calculator.dir
-F:/Code/calculator/build-win/CMakeFiles/test.dir
-F:/Code/calculator/build-win/CMakeFiles/edit_cache.dir
-F:/Code/calculator/build-win/CMakeFiles/rebuild_cache.dir

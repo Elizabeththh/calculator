@@ -1,3 +1,0 @@
-C:\bin\cmake.exe -E rm -f CMakeFiles\test_calculator.dir/objects.a
-C:\mingw64\bin\ar.exe qc CMakeFiles\test_calculator.dir/objects.a @CMakeFiles\test_calculator.dir\objects1.rsp
-C:\mingw64\bin\g++.exe -Wl,--whole-archive CMakeFiles\test_calculator.dir/objects.a -Wl,--no-whole-archive -o test_calculator.exe -Wl,--out-implib,libtest_calculator.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\test_calculator.dir\linkLibs.rsp

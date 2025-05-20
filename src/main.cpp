@@ -43,7 +43,7 @@ int main()
     while(flag != 'q')
     {
         // get the output method
-        string method = get_notation();
+        char method = get_notation();
         
         // get the first number
         string first_num = get_num();
@@ -55,14 +55,15 @@ int main()
         string second_num = get_num();
 
         // get the precision
-        long long precision = get_prec();
+        long long precision = -1;
+        if (method == 'e')  precision = get_prec(); 
 
         // check if the numbers are negative
         cout << endl;
         string ans;
 
         //classify addition and subtraction into a few categories
-        ans = calculation(first_num, second_num, op, method[0], precision);
+        ans = calculation(first_num, second_num, op, method, precision);
 
         cout << "The result is " << ans << endl;
         cout << endl;

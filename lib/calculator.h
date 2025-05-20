@@ -17,7 +17,7 @@ namespace calculator
     
     string get_num();
     string get_operator();
-    string get_notation();
+    char get_notation();
     bool is_a_valid_num(string);
     long long get_prec();
     bool is_a_floating_point(string);

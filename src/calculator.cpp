@@ -23,22 +23,19 @@ string calculator::get_num()
     return num;
 }
 
-string calculator::get_notation()
+char calculator::get_notation()
 {
     cout << endl;
-    string notation;
+    char notation;
     cout << "Choose a notation to display result" << endl;
     cout << "'e' for Scientific Notation, 'p' for Plain Number" << endl;
-    while(true)
-    {
-        getline(cin, notation);
-        if(!(notation == "e" or notation == "p"))
-        {
-            cout << "please enter a valid notation:" << endl;
-            continue;
-        }
-        break;
-    }
+
+    cin >> notation;
+
+    while (!(notation == 'e' or notation == 'p')) cin >> notation;
+
+    cin.ignore();
+
     return notation;
 }
 
@@ -82,9 +79,11 @@ long long calculator::get_prec()
 bool calculator::is_a_valid_num(string num)
 {
     size_t len = num.length();
-    if(len == 0)
+    if(len == 0) 
+    {
+        cout << "len == 0 !!" << endl;
         return false;
-    
+    }
     else if(len == 1)
     {
         if(!isdigit(num[0]))
@@ -97,10 +96,9 @@ bool calculator::is_a_valid_num(string num)
         if(!(isdigit(num[0]) or num[0] == '-'))
             return false;
         
-        bool is_decimal_point_exist = false;
         for(size_t i{1}; i < len; i++)
         {
-            if(!(isdigit(num[i]) or (!is_decimal_point_exist and num[i] == '.' and i != len - 1)))
+            if(!(isdigit(num[i]) or (num[i] == '.' and i != len - 1)))
                 return false;
         }
     }

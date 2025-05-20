@@ -1,7 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"F:/Code/calculator/build-win/cmake_install.cmake"
-	],
-	"Parallel" : false
-}
