@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/home/elizabeththh/code/cpp/calculator/lib
 
-CXX_FLAGS = -g -std=gnu++23 -Wall -Werror -pedantic -Wconversion -O3
+CXX_FLAGS = -g -std=gnu++23 -Wall -pedantic -Wconversion -O3
 

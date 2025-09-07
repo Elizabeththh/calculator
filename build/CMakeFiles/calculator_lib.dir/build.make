@@ -153,6 +153,20 @@ CMakeFiles/calculator_lib.dir/src/subtraction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/calculator_lib.dir/src/subtraction.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elizabeththh/code/cpp/calculator/src/subtraction.cpp -o CMakeFiles/calculator_lib.dir/src/subtraction.cpp.s
 
+CMakeFiles/calculator_lib.dir/src/helper.cpp.o: CMakeFiles/calculator_lib.dir/flags.make
+CMakeFiles/calculator_lib.dir/src/helper.cpp.o: /home/elizabeththh/code/cpp/calculator/src/helper.cpp
+CMakeFiles/calculator_lib.dir/src/helper.cpp.o: CMakeFiles/calculator_lib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/elizabeththh/code/cpp/calculator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/calculator_lib.dir/src/helper.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/calculator_lib.dir/src/helper.cpp.o -MF CMakeFiles/calculator_lib.dir/src/helper.cpp.o.d -o CMakeFiles/calculator_lib.dir/src/helper.cpp.o -c /home/elizabeththh/code/cpp/calculator/src/helper.cpp
+
+CMakeFiles/calculator_lib.dir/src/helper.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/calculator_lib.dir/src/helper.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elizabeththh/code/cpp/calculator/src/helper.cpp > CMakeFiles/calculator_lib.dir/src/helper.cpp.i
+
+CMakeFiles/calculator_lib.dir/src/helper.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/calculator_lib.dir/src/helper.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elizabeththh/code/cpp/calculator/src/helper.cpp -o CMakeFiles/calculator_lib.dir/src/helper.cpp.s
+
 # Object files for target calculator_lib
 calculator_lib_OBJECTS = \
 "CMakeFiles/calculator_lib.dir/src/addition.cpp.o" \
@@ -160,7 +174,8 @@ calculator_lib_OBJECTS = \
 "CMakeFiles/calculator_lib.dir/src/calculator.cpp.o" \
 "CMakeFiles/calculator_lib.dir/src/division.cpp.o" \
 "CMakeFiles/calculator_lib.dir/src/multiplication.cpp.o" \
-"CMakeFiles/calculator_lib.dir/src/subtraction.cpp.o"
+"CMakeFiles/calculator_lib.dir/src/subtraction.cpp.o" \
+"CMakeFiles/calculator_lib.dir/src/helper.cpp.o"
 
 # External object files for target calculator_lib
 calculator_lib_EXTERNAL_OBJECTS =
@@ -171,9 +186,10 @@ libcalculator_lib.a: CMakeFiles/calculator_lib.dir/src/calculator.cpp.o
 libcalculator_lib.a: CMakeFiles/calculator_lib.dir/src/division.cpp.o
 libcalculator_lib.a: CMakeFiles/calculator_lib.dir/src/multiplication.cpp.o
 libcalculator_lib.a: CMakeFiles/calculator_lib.dir/src/subtraction.cpp.o
+libcalculator_lib.a: CMakeFiles/calculator_lib.dir/src/helper.cpp.o
 libcalculator_lib.a: CMakeFiles/calculator_lib.dir/build.make
 libcalculator_lib.a: CMakeFiles/calculator_lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/elizabeththh/code/cpp/calculator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library libcalculator_lib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/elizabeththh/code/cpp/calculator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library libcalculator_lib.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/calculator_lib.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/calculator_lib.dir/link.txt --verbose=$(VERBOSE)
 

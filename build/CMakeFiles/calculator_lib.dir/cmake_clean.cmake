@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/calculator_lib.dir/src/calculator.cpp.o.d"
   "CMakeFiles/calculator_lib.dir/src/division.cpp.o"
   "CMakeFiles/calculator_lib.dir/src/division.cpp.o.d"
+  "CMakeFiles/calculator_lib.dir/src/helper.cpp.o"
+  "CMakeFiles/calculator_lib.dir/src/helper.cpp.o.d"
   "CMakeFiles/calculator_lib.dir/src/multiplication.cpp.o"
   "CMakeFiles/calculator_lib.dir/src/multiplication.cpp.o.d"
   "CMakeFiles/calculator_lib.dir/src/subtraction.cpp.o"

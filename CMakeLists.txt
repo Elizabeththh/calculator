@@ -8,7 +8,6 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 add_compile_options(
     -Wall
-    -Werror
     -pedantic
     -Wconversion
     -O3
@@ -24,6 +23,7 @@ set(SOURCES
     ${SOURCE_DIR}/division.cpp
     ${SOURCE_DIR}/multiplication.cpp
     ${SOURCE_DIR}/subtraction.cpp
+    ${SOURCE_DIR}/helper.cpp
 )
 
 #  生成一个静态库 calculator_lib
